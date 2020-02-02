@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+    {"key": "ctrl+h",
+    "command" : "cursorLeft",
+    "when" : "textInputFocus"
+    },
+
+    {"key": "ctrl+k",
+    "command" : "cursorUp",
+    "when" : "textInputFocus"
+    },
+
+    {"key": "ctrl+j",
+    "command" : "cursorDown",
+    "when" : "textInputFocus"
+    },
+
+    {"key": "ctrl+l",
+    "command" : "cursorRight",
+    "when" : "textInputFocus"
+    },
+
+    {"key": "ctrl+;",
+    "command" : "expandLineSelection",
+    "when" : "textInputFocus"
+    }
+]

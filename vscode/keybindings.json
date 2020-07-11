@@ -1,27 +1,7 @@
-// Place your key bindings in this file to override the defaults
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
 [
-    {"key": "ctrl+h",
-    "command" : "cursorLeft",
-    "when" : "textInputFocus"
-    },
-
-    {"key": "ctrl+k",
-    "command" : "cursorUp",
-    "when" : "textInputFocus"
-    },
-
-    {"key": "ctrl+j",
-    "command" : "cursorDown",
-    "when" : "textInputFocus"
-    },
-
-    {"key": "ctrl+l",
-    "command" : "cursorRight",
-    "when" : "textInputFocus"
-    },
-
-    {"key": "ctrl+;",
-    "command" : "expandLineSelection",
-    "when" : "textInputFocus"
+    {
+        "key": "cmd+[IntlRo]",
+        "command": "-workbench.action.zoomOut"
     }
 ]

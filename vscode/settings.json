@@ -1,3 +1,31 @@
 {
-    "workbench.colorTheme": "Atom One Dark"
+    // windowの設定
+    "window.zoomLevel": 0,
+    "editor.renderIndentGuides": true,
+
+    // ターミナルの設定
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.letterSpacing": 1,
+
+    // workbenchの設定
+    "workbench.colorCustomizations": {
+        // "statusBar.background": "#65859b",
+        // "statusBar.noFolderBackground": "#65859b",
+        // "statusBar.debuggingBackground": "#65859b",
+    },
+    "workbench.colorTheme": "Iceberg",
+
+    // markdownの設定
+    "markdown.preview.breaks": true,
+
+    // minimapの設定
+    "editor.minimap.size": "fill",
+    "editor.minimap.side": "left",
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "extensions.ignoreRecommendations": false
+
+    
 }
